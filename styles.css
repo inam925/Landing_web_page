@@ -9,11 +9,12 @@
 .first {
   background: #1f2937;
   color: white;
-  padding: 0 100px 70px 100px;
+  padding: 20px 100px 70px 100px;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 .header ul {
   display: flex;
@@ -37,7 +38,7 @@
   list-style-type: none;
 }
 .img_placeholder {
-  background: rgb(129, 129, 129);
+  background: gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +48,7 @@
 .mid_first {
   display: flex;
   gap: 20px;
+  width: 80vw;
 }
 .mid_first h1 {
   font-size: 48px;
@@ -58,18 +60,22 @@
 .mid_first p {
   font-size: 18px;
   color: #e5e7eb;
+  padding-bottom: 10px;
 }
 .signup {
   background: rgb(1, 133, 209);
   border-radius: 8px;
   /* box-sizing: ; */
   color: white;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 30px 10px 30px;
   border: 0px solid rgb(1, 133, 209);
+  font-size: 19px;
 }
 /* section TWO */
 .two {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 .two .title {
   margin-bottom: 30px;
@@ -120,6 +126,7 @@
 /* Fourth section */
 .four {
   padding: 50px 100px 50px 100px;
+  margin: 20px 30px 20px 30px;
 }
 .four .container {
   background: #3882f6;
