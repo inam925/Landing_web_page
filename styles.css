@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 
-.body {
+* {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .first {
   background: #1f2937;
@@ -143,3 +145,16 @@
   font-size: 18px;
 }
 /* Fifth Section */
+.five {
+  background: #1f2937;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+.five p {
+  color: #f9faf8;
+}
