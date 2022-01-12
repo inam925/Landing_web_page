@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 .first {
-  background: rgba(7, 29, 58, 0.959);
+  background: #1f2937;
   color: white;
   padding: 0 100px 70px 100px;
 }
@@ -19,6 +19,10 @@
 .header a {
   text-decoration: none;
   color: white;
+}
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 .header .logo:hover {
   cursor: pointer;
@@ -42,9 +46,15 @@
   gap: 20px;
 }
 .mid_first h1 {
-  font-size: 42px;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+.mid_first p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 .signup {
   background: rgb(1, 133, 209);
@@ -55,3 +65,28 @@
   border: 0px solid rgb(1, 133, 209);
 }
 /* section TWO */
+.two {
+  text-align: center;
+}
+.two .title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+.two .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.two .rectangle {
+  border: 4px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.two .info {
+  max-width: 180px;
+}
